@@ -1,11 +1,7 @@
 let quantity = 5;
 let pricePerDroid = 3000;
-quantity = 5;
-pricePerDroid = 3000;
-function totalPrice(quantity, pricePerDroid) {
-  return quantity * pricePerDroid;
-}
-function makeTransaction(quantity, totalPrice) {
+function makeTransaction(quantity, pricePerDroid) {
+  let totalPrice = quantity * pricePerDroid;
   return `You ordered ${quantity} droids worth ${totalPrice} credits!`;
 }
 
